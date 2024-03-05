@@ -1,8 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React Next Store Commerce
 
-## Getting Started
+This is a simple online commerce application implementing a product listing developed in react, using Next and the commerce api.
+This application uses [CommerJS Api](https://commercejs.com/docs/api/). Create your account to get your credentials and add your shop settings and products.
 
-First, run the development server:
+## Installling
+
+Create a .env file with content like this:
+
+```
+NEXT_PUBLIC_CHEC_PUBLIC_KEY=pk_test_123421_YOUR_COMMERCE_KEY_9013dadd91fb6794412345
+NODE_ENV=development
+CHEC_API_URL=https://api.chec.io
+```
+
+## Installing
+
+```
+npm i
+```
+
+## Running
 
 ```bash
 npm run dev
@@ -18,7 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[API routes](https://nextjs.org/docs/api-routes/introduction)
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
